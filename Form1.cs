@@ -34,7 +34,30 @@ namespace PracticaGit
 
         private void btnrestar_Click(object sender, EventArgs e)
         {
+            double num1 = Convert.ToDouble(txtnum1.Text);
+            double num2= Convert.ToDouble(txtnum2.Text);
 
+            double resta = num1 - num2;
+
+            txtresultado.Text = resta.ToString();
+        }
+
+        private void btnmultiplicar_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(txtnum1.Text);
+            double num2 = Convert.ToDouble(txtnum2.Text);
+
+            double multilplicacion = num1 * num2;
+            txtresultado.Text= multilplicacion.ToString();
+        }
+
+        private void btndivision_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(txtnum1.Text);
+            double num2 = Convert.ToDouble(txtnum2.Text);
+
+            double division = num1 / num2;
+            txtresultado.Text = division.ToString();
         }
     }
 }

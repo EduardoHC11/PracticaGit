@@ -128,6 +128,7 @@
             this.btnmultiplicar.TabIndex = 9;
             this.btnmultiplicar.Text = "Multiplicar";
             this.btnmultiplicar.UseVisualStyleBackColor = true;
+            this.btnmultiplicar.Click += new System.EventHandler(this.btnmultiplicar_Click);
             // 
             // btndivision
             // 
@@ -137,6 +138,7 @@
             this.btndivision.TabIndex = 10;
             this.btndivision.Text = "Division";
             this.btndivision.UseVisualStyleBackColor = true;
+            this.btndivision.Click += new System.EventHandler(this.btndivision_Click);
             // 
             // Form1
             // 
