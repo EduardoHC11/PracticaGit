@@ -31,5 +31,10 @@ namespace PracticaGit
 
             txtresultado.Text = suma.ToString();
         }
+
+        private void btnrestar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
