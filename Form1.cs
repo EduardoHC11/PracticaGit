@@ -24,7 +24,12 @@ namespace PracticaGit
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            
+            double num1 = Convert.ToDouble(txtnum1.Text);
+            double num2=Convert.ToDouble(txtnum2.Text);
+
+            double suma = num1 + num2;
+
+            txtresultado.Text = suma.ToString();
         }
     }
 }
