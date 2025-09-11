@@ -39,6 +39,7 @@
             this.btnrestar = new System.Windows.Forms.Button();
             this.btnmultiplicar = new System.Windows.Forms.Button();
             this.btndivision = new System.Windows.Forms.Button();
+            this.btnlimpiar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -140,12 +141,23 @@
             this.btndivision.UseVisualStyleBackColor = true;
             this.btndivision.Click += new System.EventHandler(this.btndivision_Click);
             // 
+            // btnlimpiar
+            // 
+            this.btnlimpiar.Location = new System.Drawing.Point(420, 187);
+            this.btnlimpiar.Name = "btnlimpiar";
+            this.btnlimpiar.Size = new System.Drawing.Size(81, 32);
+            this.btnlimpiar.TabIndex = 11;
+            this.btnlimpiar.Text = "Limpiar";
+            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(513, 430);
+            this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.btndivision);
             this.Controls.Add(this.btnmultiplicar);
             this.Controls.Add(this.btnrestar);
@@ -176,6 +188,7 @@
         private System.Windows.Forms.Button btnrestar;
         private System.Windows.Forms.Button btnmultiplicar;
         private System.Windows.Forms.Button btndivision;
+        private System.Windows.Forms.Button btnlimpiar;
     }
 }
 

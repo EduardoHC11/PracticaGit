@@ -59,5 +59,12 @@ namespace PracticaGit
             double division = num1 / num2;
             txtresultado.Text = division.ToString();
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtnum1.Clear();
+            txtnum2.Clear();
+            txtresultado.Clear();
+        }
     }
 }
